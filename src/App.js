@@ -13,6 +13,8 @@ class App extends Component {
         </div>
         <Link to="/hello">Hello</Link>
         <Link to = "/name"> Name</Link>
+        <Link to = "/Pie">Pie</Link>
+
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>

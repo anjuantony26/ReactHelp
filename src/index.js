@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 import { Router , Route, browserHistory} from 'react-router'
+import {GooglePie} from './googlePie.js'
 export class HelloWorld extends React.Component {
   render(){
     console.log("Asdkjlahslkjdgklj")
@@ -32,6 +33,7 @@ let routes = (
     <Route path="/" component={App}>
       <Route path="/hello" component={HelloWorld}/>
       <Route path="/name" component={Name}/>
+      <Route path="Pie" component={GooglePie}/>
     </Route>
 
   </Router>
